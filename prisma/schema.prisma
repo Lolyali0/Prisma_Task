@@ -11,18 +11,15 @@ datasource db {
 }
 
 model User {
-  id        Int       @id @default(autoincrement())
-  email     String    @unique
-  name      String?
-  createdAt DateTime  @default(now())
-  updatedAt DateTime  @updatedAt
-  articles  Article[]
+  id       Int    @id @default(autoincrement())
+  email    String @unique
+  username String
+  password String
 }
 
 model Article {
   id       Int     @id @default(autoincrement())
   title    String
   body     String?
-  author   User    @relation(fields: [authorId], references: [id])
   authorId Int
 }

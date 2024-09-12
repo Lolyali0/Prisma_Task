@@ -8,10 +8,21 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "@prisma/client": "^5.18.0",
+    "@prisma/client": "^5.19.1",
+    "cookie": "^0.6.0",
     "prisma": "^5.18.0",
     "react-textarea-autosize": "^8.5.3",
     "textarea": "^0.3.0",
     "textarea-autocomplete": "^0.3.2"
-  }
+  },
+  "name": "prisma-crash",
+  "version": "1.0.0",
+  "description": "",
+  "main": "tailwind.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
